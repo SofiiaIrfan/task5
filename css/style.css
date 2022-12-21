@@ -1,0 +1,242 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans';
+}
+
+.container {
+    width: 970px;
+    margin: 0 auto;
+}
+
+.nav-menu {
+    text-align: center;
+}
+
+.li_header {
+    display: inline-block;
+    margin: 25px auto;
+}
+
+.li_header a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #828282;
+    padding: 0 20px 0 20px;
+}
+
+.line {
+    border: 1px solid #828282;
+    margin: 0 auto
+}
+
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    width: 970px;
+    margin: 0 auto;
+    margin-top: 12px;
+}
+
+.titlt-foto {
+    display: flex;
+    width: 970px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.about-me {
+    background: #F6F6F6;
+    text-align: center;
+    padding: 100px 0;
+    color: #070707;
+}
+
+.about {
+    font-size: 34px;
+    line-height: 46px;
+    font-weight: 700;
+}
+
+.about-me_part1 {
+    margin-top: 50px;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+.about-me_part2 {
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+}
+.about-me_part3 {
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+
+/* Skills */
+
+
+.heading {
+    padding: 100px 0 50px 0;
+    text-align: center;
+}
+
+.skills_header {
+    font-size: 34px;
+    font-weight: 700;
+    color: #070707;
+}
+
+.skills_paragraph {
+    padding-top: 20px;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    gap: 97px;
+}
+
+.skills_program {
+    align-items: center;
+    text-align: center;
+}
+
+.display_skills {
+    display: flex;
+    padding: 60px 0 100px 0;
+}
+
+.display_skills_figma {
+    display: flex;
+    padding: 80px 0 100px 0;
+}
+
+.stars {
+    height: 26px;
+    padding-right: 10px;   
+}
+
+
+.stars:last-child {
+    padding-right: 0;
+}
+
+.program {
+    height: 80px;
+}
+
+.paragraph_items {
+    color: #828282;
+    font-weight: 400;
+    padding-top: 30px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    flex: none
+}
+
+
+/* Portfolio */
+
+.portfolio_background {
+    background-color: #F6F6F6;
+    text-align: center;
+    color: #070707;
+}
+
+figcaption {
+    padding: 40px 0 70px 0;
+    font-size: 18px;
+    line-height: 25px;
+    width: 275px;
+    margin: 0 auto;
+}
+
+.h2_portfolio {
+    padding: 100px 0 50px 0;
+    font-size: 34px;
+    line-height: 46px;  
+}
+
+.paragraph_portfolio {
+    text-decoration-line: underline;
+}
+
+.foto_fashion_store {
+    height: 540px;
+}
+
+
+
+/* Contacts */
+
+.heading_contact {
+    text-align: center;
+    margin-top: 100px;
+    color: #070707
+}
+
+.contacts_h2 {
+    font-size: 34px;
+}
+
+.contacts_paragraph {
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+.button {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.button_links {
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    height: 45px;
+    width: 180px;
+    background-color: #070707;
+    color: #FFFFFF;
+    border-radius: 22px;
+    cursor: pointer;
+    
+}
+
+.social-group {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+
+}
+
+.social-group img {
+    width: 40px;
+    margin: 0 25px;
+}
+
+.social_group_paragraph {
+    padding: 60px 0 100px 0;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #828282;
+}
